@@ -1,139 +1,30 @@
-#box {
-    position: relative;
-    margin-top: 5%;
-    margin-left: 3%;
-    width: 300px;
-    height: 300px;
-    background-color: red;
-    margin-bottom: 4%;
-    /* margin-right:40%; */
-}
-
-#chhota {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    margin-top: 4%;
-    margin-left: 40%;
-    margin-right: 20%;
-
-    background-color: yellow;
-}
-
-#car1 {
-    position: absolute;
-    width: 100px;
-    height: 120px;
-    text-align: center;
-    background-color: red;
-}
-
-#car2 {
-    position: absolute;
-    /* margin-left: 800px; */
-    text-align: center;
-    width: 110px;
-    height: 90px;
-    background-color: purple;
-}
-
-#car3 {
-    position: absolute;
-    width: 130px;
-    height: 110px;
-    text-align: center;
-    background-color: green;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,400&family=Poppins:wght@900&display=swap');
 
 html,
 body {
-    width: 100%;
     height: 100%;
-    background-repeat: no-repeat;
-}
-
-#so {
     width: 100%;
-    height: 100%;
-    background-image: url(https://osminteriors.com/wp-content/uploads/2023/01/hospital-interior-design-hyderabad.jpg);
-    background-size: cover;
-    background-position: center;
-
 }
 
-#so,
-p {
-    text-align: center;
-    color: black;
-    /* margin-left: 1%; */
-    margin-right: 1%;
+.button {
+    width: 56px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* color: #f1f2f6;
-    color: black;
-    margin-left: 4%;
-    margin-right: 4%;
-
-/* input {
-     background-color:#ccae62e5;
-} */
-form {
-    background-color: mediumseagreen;
-    width: 100%;
-    height: 100%;
-    padding-left: 1%;
-
+.row {
+    margin: 8px 0;
 }
 
-h1 {
-    text-align: center;
-}
-
-#c {
-    /* background-color:red; */
-    margin-left: 1%;
-
-
-}
-
-#W {
-    /* background-color:yellow; */
-    /* margin-left: 5%; */
-    margin-left: 1%;
-}
-
-#d {
-    /* background-color: blue; */
-    margin-left: 1%;
-
-}
-
-#t {
-    /* background-color:deeppink; */
-    margin-left: 1%;
-
-
-}
-
-#s {
-    /* background-color:deeppink; */
-    margin-top: 1%;
-
-
-
-}
-#first{
-    margin-right: 70px;
-    padding-left: 19%;
-}
-iframe{
-    margin-right: 50px;
-    margin-left: 30px;
-}
-/* div{
-    padding-left: 8%;
-} */
-#third{
-
-   
+.row input {
+    font-size: 19px;
+    width: 255px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
